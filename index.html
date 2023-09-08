@@ -1,21 +1,38 @@
-<!DOCTYPE html>
-<html>
 
+    
+</html>
+<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./style.css">
   <script src="./script.js" defer></script>
   <title>js</title>
 </head>
-
 <body>
-  <h1>Ржака цвет меняется</h1>
-  <br>
-  <a href="https://github.com/didraa/sm9.git">ссылка</a>
+  <h1>Валидация формы</h1>
+  <a href="https://github.com/didraa/sm9.git">git</a>
 
+  <form id="validation-form">
+    <label for="name-field">Имя:</label><br>
+    <input type="text" id="name-field"><br>
+    <div id="name-error" style="color: rgb(160, 15, 15);"></div>
+
+    <label for="birth-year-field">Год рождения:</label><br>
+    <input type="text" id="birth-year-field"><br>
+    <div id="birth-year-error" style="color: rgb(160, 15, 15);"></div>
+
+    <button type="submit">Отправить</button>
+  </form>
+
+  <div id="result">
+    <p>Форма заполнена правильно!</p>
+    <a href="https://club.z-go.ru">Ссылка</a>
+    <button id="fire-button">Нажми на меня</button>
+  </div>
+
+ 
 </body>
-
 </html>
